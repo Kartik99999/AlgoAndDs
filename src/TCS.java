@@ -12,5 +12,7 @@ public class TCS {
         System.out.println(array.length);
         int foundAt=Arrays.binarySearch(array, 6);
         System.out.println("Value found at index= "+foundAt);
+        System.out.println("kartik implementaiton");
+        System.out.println(BinarySearchByK.search(array,6));
     }
 }
