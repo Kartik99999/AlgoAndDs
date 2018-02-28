@@ -1,4 +1,6 @@
+import java.util.*
+
 fun main(args: Array<String>) {
-    val integer= readLine()?.toInt()
-    println(integer)
+    val intArray= arrayOf("one","two")
+    println(Arrays.toString(intArray))
 }
